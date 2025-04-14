@@ -6,4 +6,4 @@ Wireshark. It is by default, but you can edit the init.lua file (to find the pat
 folder but instead look for "Global configuration") and set enable_lua to true. In Wireshark, begin a capture or load a capture
 file and allow the data to be gathered. If it is a premade file, the exported data can be found in your documents folder as 
 "packets.csv". If it is a live capture, you csn check the Lua console to see the packets being processed. Once you end the
-capture, the data is exported.
+capture, the data is exported in the same location and the same name.
